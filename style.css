@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+body {
+  background-color: #ffedec;
+  width: auto;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header {
+  align-items: center;
+  display: flex;
+  background-color: #361b1a;
+  justify-content: space-between;
+  height: 84px;
+  gap: 200px;
+}
+.icon-image {
+  margin: 3%;
+  display: flex;
+  align-items: center;
+}
+.icon-text {
+  color: white;
+  width: 150px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-text {
+  color: white;
+}
+.header-text ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 40px;
+}
+.header-text ul > li {
+  list-style: none;
+  width: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+.intro p {
+  border-bottom: 8px rgba(54, 27, 26, 0.2) solid;
+  width: 375px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-text {
+  width: 806px;
+  margin: 10px auto;
+  margin-top: 42px;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.theater-photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+.movie-photo {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+}
+.movie-photo2 {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+}
+.ticket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+}
+footer {
+  background-color: #361b1a;
+  height: 233px;
+  margin-top: 107px;
+  padding-top: 51px;
+  padding-left: 67px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.415em;
+
+  color: #ffffff;
+}
+.inforn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+
+  letter-spacing: 0.415em;
+  margin-left: 72px;
+  color: #ffffff;
+}
+.contact {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 190%;
+  /* or 27px */
+  margin-left: 71px;
+  letter-spacing: 0.6em;
+
+  color: #ffffff;
+}
+.contact-icon {
+  margin-left: 53px;
+}
